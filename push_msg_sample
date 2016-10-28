@@ -1,0 +1,14 @@
+server location: https://fcm.googleapis.com/fcm/send
+
+Headers:
+Content-Type: application/json
+Authorization: key=<Firebase Key>
+
+Body: (application/json)
+{
+  "to" : "<device fcm push token>",
+  "data": {
+    "subject": "TestTest",
+    "message": "阿哈哈哈哈"
+   }
+}
